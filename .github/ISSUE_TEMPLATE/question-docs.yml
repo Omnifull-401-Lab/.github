@@ -1,0 +1,34 @@
+name: "Question & Docs / 提问与文档建议"
+description: "项目问题求助、GitHub 使用疑问，或提出文档补充与纠错建议"
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        遇到 GitHub / GitHub Desktop 报错时，建议先查阅 [05｜高频问题与排错急救手册](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/05-faq.md)，常见问题通常 1 分钟就能解决！
+  - type: dropdown
+    id: topic
+    attributes:
+      label: "Topic / 主题分类"
+      options:
+        - "项目开发与硬件调试求助"
+        - "GitHub / GitHub Desktop 使用求助"
+        - "文档补充或纠错建议"
+        - "其他问题"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details / 问题描述或建议内容"
+      description: "求助时请说明：所在仓库、当前顶部 Current branch 名称、刚才点的按钮，并直接 Ctrl+V 贴完整报错截图"
+      placeholder: "所在仓库：\n当前分支：\n具体情况或建议："
+    validations:
+      required: true
+  - type: checkboxes
+    id: checked_faq
+    attributes:
+      label: "Quick Check / 提问前小确认"
+      options:
+        - label: "我已先查阅过团队知识库（Omnifull-401-Lab/team-handbook）或 05-faq.md"
+          required: false
