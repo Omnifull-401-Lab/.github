@@ -11,4 +11,4 @@ This is the special organization-wide configuration repository for **[Omnifull-4
 | [`.github/PULL_REQUEST_TEMPLATE.md`](./.github/PULL_REQUEST_TEMPLATE.md) | Default Pull Request template automatically pre-filled across organization repositories |
 | [`.github/ISSUE_TEMPLATE/`](./.github/ISSUE_TEMPLATE/) | Default YAML Issue Forms (`Bug Report`, `Task & Feature`, `Question & Docs`) and handbook quick links (`config.yml`) |
 
-> Note: This repository must remain **Public** for GitHub to display the organization profile README and apply default community health files across organization repositories. For full team documentation, visit **[Omnifull-401-Lab/team-handbook](https://github.com/Omnifull-401-Lab/team-handbook)**.
+> Note: This repository must remain **Public** for GitHub to display the organization profile README and apply default community health files across organization repositories. Team members can access full internal onboarding documentation in **[Omnifull-401-Lab/team-handbook](https://github.com/Omnifull-401-Lab/team-handbook)** *(private — members only)*.

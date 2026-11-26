@@ -7,7 +7,7 @@
 
 ## 1. Onboarding Handbook / 入队必读知识库
 
-首次参与协作前，请先查阅我们的统一知识库 **[Omnifull-401-Lab/team-handbook](https://github.com/Omnifull-401-Lab/team-handbook)**：
+首次参与协作前，请先查阅我们的内部统一知识库 **[Omnifull-401-Lab/team-handbook](https://github.com/Omnifull-401-Lab/team-handbook)** *（私有仓库，需登录组织成员账号后访问）*：
 
 1. [01｜GitHub Basics & Web Guide](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/01-github-guide.md)
 2. [02｜GitHub Desktop Guide](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/02-github-desktop-guide.md)
