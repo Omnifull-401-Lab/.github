@@ -1,0 +1,51 @@
+name: "Bug Report / 问题反馈"
+description: "报告代码 Bug、硬件调试异常或工具报错问题"
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量把环境、现象和报错信息写清楚，正文支持直接 `Ctrl+V` 粘贴截图。
+  - type: dropdown
+    id: module
+    attributes:
+      label: "Module / 涉及模块"
+      options:
+        - "Firmware / 嵌入式固件 (STM32 / TI / DSP / ESP / FPGA)"
+        - "Hardware / 硬件原理图、PCB 与电源"
+        - "Vision & Software / 视觉 (MaixCAM / CV) 与上位机"
+        - "Docs / 文档与说明"
+        - "Other / 其他"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment / 运行环境与硬件平台"
+      description: "请写明开发板/芯片型号、软件版本或操作系统"
+      placeholder: "例如：STM32F407 + Keil5 / MaixCAM v4.x / GitHub Desktop + Win11"
+    validations:
+      required: true
+  - type: textarea
+    id: phenomenon
+    attributes:
+      label: "What Happened & Expected Behavior / 实际现象与预期结果"
+      description: "发生了什么异常？正常预期应该是什么表现？"
+      placeholder: "实际现象：\n预期结果："
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: "What You Tried / 已尝试的排查步骤"
+      description: "已经排除了哪些可能？（例如已测共地、波特率、线序或查阅过 05-faq.md）"
+      placeholder: "例如：已确认供电电压正常，示波器测得 TX 有波形但接收端无中断..."
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs or Screenshots / 报错日志或截图"
+      description: "可直接 Ctrl+V 粘贴报错/波形截图，或粘贴完整报错文本"
+    validations:
+      required: false

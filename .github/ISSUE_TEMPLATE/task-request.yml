@@ -1,0 +1,44 @@
+name: "Task & Feature / 任务与需求"
+description: "登记新功能开发、硬件改版、联调任务或分工认领"
+title: "[Task] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        用于记录待办开发任务、比赛模块分工或新功能需求；认领后可在右侧选择 `Assignees`。
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category / 任务类型"
+      options:
+        - "feat / 新功能或算法开发"
+        - "hw / 硬件原理图、PCB 或结构设计"
+        - "docs / 文档与接线说明补充"
+        - "test / 联调测试与指标验证"
+        - "chore / 环境配置与工具维护"
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: "Goal & Context / 任务目标与背景"
+      description: "这项任务要做什么？解决什么问题？"
+      placeholder: "例如：为小车底盘电机增加闭环速度 PID 控制，支持通过串口动态调参。"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Acceptance Criteria / 完成标准"
+      description: "做到什么程度可以关闭本任务？（尽量可验证）"
+      placeholder: "- [ ] 完成代码并跑通板载实测\n- [ ] 阶跃响应超调 < 10%\n- [ ] 更新相关接线或参数说明文档"
+    validations:
+      required: true
+  - type: textarea
+    id: hardware_lock
+    attributes:
+      label: "Binary / Hardware File Coordination / 易冲突文件占用说明（可选）"
+      description: "如涉及修改 PCB / 原理图 / Keil 工程等二进制或难合并文件，可在此注明文件名与预计占用时段，方便队友错开"
+      placeholder: "例如：预计今晚 19:00–22:00 修改 hardware/pcb/power-board.PcbDoc"
+    validations:
+      required: false
