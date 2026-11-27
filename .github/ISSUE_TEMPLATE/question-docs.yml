@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        遇到 GitHub / GitHub Desktop 报错时，建议先查阅 [05｜高频问题与排错急救手册](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/05-faq.md)，常见问题通常 1 分钟就能解决！
+        遇到 GitHub / GitHub Desktop 报错时，建议先查阅 [05｜高频问题与排错急救手册](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/onboarding/05-faq.md)，常见问题通常 1 分钟就能解决！
   - type: dropdown
     id: topic
     attributes:

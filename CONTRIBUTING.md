@@ -9,11 +9,11 @@
 
 首次参与协作前，请先查阅我们的内部统一知识库 **[Omnifull-401-Lab/team-handbook](https://github.com/Omnifull-401-Lab/team-handbook)** *（私有仓库，需登录组织成员账号后访问）*：
 
-1. [01｜GitHub Basics & Web Guide](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/01-github-guide.md)
-2. [02｜GitHub Desktop Guide](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/02-github-desktop-guide.md)
-3. [03｜Standard Workflow & Branching](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/03-workflow-github-desktop.md)
-4. [04｜Team Engineering Conventions](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/04-team-conventions.md)
-5. [05｜Troubleshooting & FAQ](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/05-faq.md)
+1. [01｜GitHub Basics & Web Guide](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/onboarding/01-github-guide.md)
+2. [02｜GitHub Desktop Guide](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/onboarding/02-github-desktop-guide.md)
+3. [03｜Standard Workflow & Branching](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/onboarding/03-workflow-github-desktop.md)
+4. [04｜Team Engineering Conventions](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/onboarding/04-team-conventions.md)
+5. [05｜Troubleshooting & FAQ](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/onboarding/05-faq.md)
 
 ---
 

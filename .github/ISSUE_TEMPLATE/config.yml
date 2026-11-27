@@ -4,5 +4,5 @@ contact_links:
     url: "https://github.com/Omnifull-401-Lab/team-handbook"
     about: "仅组织成员可见：GitHub 网页导览、GitHub Desktop 上手、分支协作与团队工程规范速查"
   - name: "Troubleshooting & FAQ / 高频排错急救手册 (Members Only)"
-    url: "https://github.com/Omnifull-401-Lab/team-handbook/blob/main/docs/05-faq.md"
+    url: "https://github.com/Omnifull-401-Lab/team-handbook/blob/main/onboarding/05-faq.md"
     about: "仅组织成员可见：校园网超时、误改 main、大文件拒推与乱码等常见报错快速解决方案"
