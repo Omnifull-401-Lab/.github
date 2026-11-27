@@ -26,8 +26,11 @@
       <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
     </linearGradient>
 
-    <filter id="elevShadow" x="-25%" y="-25%" width="150%" height="150%">
+    <filter id="elevShadowDark" x="-25%" y="-25%" width="150%" height="150%">
       <feDropShadow dx="0" dy="26" stdDeviation="34" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="elevShadowLight" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.15"/>
     </filter>
     <filter id="foldShadowTR" x="-30%" y="-30%" width="160%" height="160%">
       <feDropShadow dx="14" dy="20" stdDeviation="16" flood-color="#020617" flood-opacity="0.72"/>

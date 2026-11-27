@@ -26,8 +26,11 @@
       <stop offset="100%" stop-color="#000000" stop-opacity="0.18"/>
     </linearGradient>
 
-    <filter id="elevShadow" x="-25%" y="-25%" width="150%" height="150%">
+    <filter id="elevShadowDark" x="-25%" y="-25%" width="150%" height="150%">
       <feDropShadow dx="0" dy="26" stdDeviation="34" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="elevShadowLight" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.15"/>
     </filter>
     <filter id="foldShadowTR" x="-30%" y="-30%" width="160%" height="160%">
       <feDropShadow dx="14" dy="20" stdDeviation="16" flood-color="#020617" flood-opacity="0.72"/>
@@ -43,7 +46,7 @@
 
   <rect width="1024" height="1024" fill="url(#bg1)"/>
 
-  <g filter="url(#elevShadow)">
+  <g filter="url(#elevShadowDark)">
     <path d="M 213.49 698.53 A 352 352 0 1 1 856.31 438.82 A 87 87 0 0 1 686.11 474.99 A 178 178 0 1 0 361.05 606.33 A 87 87 0 0 1 213.49 698.53 Z" fill="url(#gradA)"/>
     <path d="M 213.49 698.53 A 352 352 0 1 1 856.31 438.82 A 87 87 0 0 1 686.11 474.99 A 178 178 0 1 0 361.05 606.33 A 87 87 0 0 1 213.49 698.53 Z" fill="url(#rimHighlight)"/>
 
