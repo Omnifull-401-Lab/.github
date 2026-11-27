@@ -1,12 +1,21 @@
-# Welcome to Omnifull-401-Lab
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Omnifull-401-Lab/.github/main/assets/brand/lockups/lockup-color-for-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Omnifull-401-Lab/.github/main/assets/brand/lockups/lockup-color-for-light.png" />
+    <img src="https://raw.githubusercontent.com/Omnifull-401-Lab/.github/main/assets/brand/lockups/lockup-color-for-light.png" width="500" alt="Omnifull-401-Lab" />
+  </picture>
+</p>
 
-![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![STM32](https://img.shields.io/badge/MCU-STM32%20%7C%20TI%20%7C%20ESP%20%7C%20DSP-03234B?style=flat-square)
-![FPGA](https://img.shields.io/badge/FPGA-Digital%20Design-5C2D91?style=flat-square)  
-![Hardware](https://img.shields.io/badge/PCB-LCEDA%20%7C%20Altium%20%7C%20Cadence-2E7D32?style=flat-square)
-![Vision](https://img.shields.io/badge/Vision-MaixCAM%20%7C%20OpenCV-E65100?style=flat-square)
-![Roadmap](https://img.shields.io/badge/Roadmap-Edge%20%7C%20Linux%20%7C%20ROS%20%7C%20SLAM-1565C0?style=flat-square)
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C/C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/MCU-STM32%20%7C%20TI%20%7C%20ESP%20%7C%20DSP-03234B?style=flat-square" alt="MCU" />
+  <img src="https://img.shields.io/badge/FPGA-Digital%20Design-5C2D91?style=flat-square" alt="FPGA" />
+  <br />
+  <img src="https://img.shields.io/badge/PCB-LCEDA%20%7C%20Altium%20%7C%20Cadence-2E7D32?style=flat-square" alt="Hardware" />
+  <img src="https://img.shields.io/badge/Vision-MaixCAM%20%7C%20OpenCV-E65100?style=flat-square" alt="Vision" />
+  <img src="https://img.shields.io/badge/Roadmap-Edge%20%7C%20Linux%20%7C%20ROS%20%7C%20SLAM-1565C0?style=flat-square" alt="Roadmap" />
+</p>
 
 **Omnifull-401-Lab** is an undergraduate **Electronic Information Engineering** student team focused on **Embedded Systems (Hardware & Software)**, **Computer Vision**, and **Intelligent Robotics**.
 
@@ -39,7 +48,7 @@ Together, we design circuits, write firmware and vision algorithms, and compete 
 | [05｜Troubleshooting & FAQ](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/onboarding/05-faq.md) | 校园网超时、误改 `main`、大文件拒推与编码乱码急救手册 |
 | [CONTRIBUTING.md](https://github.com/Omnifull-401-Lab/team-handbook/blob/main/CONTRIBUTING.md) | 贡献流程速览与提 PR 前 30 秒自查清单 |
 
-> **Public Brand Assets**: Official vector (`.svg`) & high-res (`.png`) logos for slides, posters, and mask-free PCB silkscreens are available in [`Omnifull-401-Lab/.github/assets/brand/`](https://github.com/Omnifull-401-Lab/.github/tree/main/assets/brand).
+> **Public Brand Kit (v1.1)**: Official square emblems (`01`–`08`) and horizontal `F5A` nameplates & mask-free PCB silkscreen SVGs (`09`–`13`) are published in [`Omnifull-401-Lab/.github/assets/brand/`](https://github.com/Omnifull-401-Lab/.github/tree/main/assets/brand).
 
 ---
 
